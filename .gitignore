@@ -1,0 +1,36 @@
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Virtualenvs
+.venv/
+env/
+venv/
+
+# Conda envs
+/.conda/
+
+# Secrets / local config
+.env
+.secret
+
+# Test / lint caches
+.pytest_cache/
+.mypy_cache/
+
+# Project data (do NOT commit raw or large working files)
+# No subir datos crudos ni working
+data/raw/*
+data/working/*
+
+# Keep processed outputs if they're small and reproducible
+# data/processed/
